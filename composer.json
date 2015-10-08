@@ -1,0 +1,14 @@
+{
+  "require": {
+    "videlalvaro/php-amqplib": "2.5.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "files": [
+      "classes/AMPQConnector.class.php",
+      "classes/msgHandler.class.php"
+    ]
+  }
+}
